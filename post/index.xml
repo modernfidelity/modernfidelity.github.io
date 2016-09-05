@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on modernfidelity studios</title>
-    <link>http://modernfidelity.github.io/post/</link>
+    <link>https://modernfidelity.github.io/post/</link>
     <description>Recent content in Posts on modernfidelity studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Mon, 05 Sep 2016 08:43:18 +0100</lastBuildDate>
-    <atom:link href="http://modernfidelity.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://modernfidelity.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>docker cmds</title>
-      <link>http://modernfidelity.github.io/post/docker-cmds/</link>
+      <link>https://modernfidelity.github.io/post/docker-cmds/</link>
       <pubDate>Mon, 05 Sep 2016 08:43:18 +0100</pubDate>
       
-      <guid>http://modernfidelity.github.io/post/docker-cmds/</guid>
+      <guid>https://modernfidelity.github.io/post/docker-cmds/</guid>
       <description></description>
     </item>
     
