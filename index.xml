@@ -15,7 +15,12 @@
       <pubDate>Mon, 05 Sep 2016 08:43:18 +0100</pubDate>
       
       <guid>https://modernfidelity.github.io/post/docker-cmds/</guid>
-      <description></description>
+      <description>&lt;p&gt;Some other useful Docker commands to stop / remove all of Docker containers:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>
