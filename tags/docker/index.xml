@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on modernfidelity studios</title>
+    <link>https://modernfidelity.github.io/tags/docker/</link>
+    <description>Recent content in Docker on modernfidelity studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 05 Sep 2016 08:43:18 +0100</lastBuildDate>
+    <atom:link href="https://modernfidelity.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>docker cmds</title>
+      <link>https://modernfidelity.github.io/post/docker-cmds/</link>
+      <pubDate>Mon, 05 Sep 2016 08:43:18 +0100</pubDate>
+      
+      <guid>https://modernfidelity.github.io/post/docker-cmds/</guid>
+      <description>&lt;p&gt;Some other useful Docker commands to stop / remove all of Docker containers:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
