@@ -1,18 +1,3 @@
-/*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/hyde.
- */
-
 
 /*
  * Contents
@@ -56,9 +41,10 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: #333;
+  background-color: #e9e9e9;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -72,15 +58,16 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #333;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
+  color: #333;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "Arial", serif;
+  font-weight: 300;
+  font-size: 1.3em;
 }
 
 /* Sidebar nav */

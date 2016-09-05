@@ -232,7 +232,8 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  color: #999;
+  font-size: 1em;
   font-weight: 300;
 }
 
@@ -357,6 +358,11 @@ tbody tr:nth-child(odd) th {
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
  * there are no more previous or next posts to show.
  */
+
+.pagination li {
+  display: inline-block;
+}
+
 
 .pagination {
   overflow: hidden; /* clearfix */
