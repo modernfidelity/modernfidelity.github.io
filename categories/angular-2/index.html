@@ -1,11 +1,19 @@
+
+
+
+    
+        
+    
+
+
+
+
 <!DOCTYPE HTML>
 
 <html>
     <head>
         
-            
-                <title>modernfidelity studios</title>
-            
+            <title>Angular 2 Posts - modernfidelity studios</title>
         
 
         <meta charset="utf-8" />
@@ -22,10 +30,10 @@
         
 
         
-        <meta property="og:title" content="modernfidelity studios" />
+        <meta property="og:title" content="Angular 2" />
 <meta property="og:description" content="Technical blog and general memory dump for all things web" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://modernfidelity.github.io/" />
+<meta property="og:url" content="https://modernfidelity.github.io/categories/angular-2/" />
 
 
 <meta property="og:updated_time" content="2016-09-16T17:32:36&#43;01:00"/>
@@ -39,7 +47,7 @@
 
 
         
-<meta itemprop="name" content="modernfidelity studios">
+<meta itemprop="name" content="Angular 2">
 <meta itemprop="description" content="Technical blog and general memory dump for all things web">
 
 
@@ -79,10 +87,9 @@
         <div id="wrapper">
 
     
-    
 <header id="header">
     
-        <h1><a href="/">modernfidelity studios</i></a></h1>
+        <h2><a href="/">modernfidelity studios</i></a></h2>
     
 
     <nav class="links">
@@ -111,10 +118,6 @@
     </nav>
     <nav class="main">
         <ul>
-            
-            <li id="share-nav" class="share-menu" style="display:none;">
-                <a class="fa-share-alt" href="#share-menu">Share</a>
-            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -205,6 +208,8 @@
 
     
     <div id="main">
+        <h1>Angular 2</h1>
+        
         
             <article class="post">
     <header>
@@ -228,97 +233,14 @@
     </div>
 </header>
 
-
+    
 
     
 
-    <div id="content">
-        
-
-<h2 id="notes-from-first-experiments-angular2">Notes from first experiments Angular2</h2>
-
-<p>The following are some useful snippets on the new javascript code setup for Angular 2. The basis of
-the application is the around the &lsquo;isomorphic&rsquo; server-side rendering known as &lsquo;Universal&rsquo; and the tool
-set of Webpack over the traditional Grunt/Gulp.</p>
-
-<p>Link to the main boiler plate for Universal <a href="https://github.com/angular/universal-starter">https://github.com/angular/universal-starter</a></p>
-
-<h3 id="angular-2">Angular 2</h3>
-
-<pre><code>npm install -g angular-cli
-npm install -g webpack
-npm install -g typescript
-</code></pre>
-
-<p>Then you can create a new application with the following :</p>
-
-<pre><code>ng new snazzy-js-project
-cd snazzy-js-project
-ng serve
-</code></pre>
-
-<p>Open <a href="http://localhost:4200">http://localhost:4200</a> in your browser.</p>
-
-<h3 id="webpack">Webpack</h3>
-
-<p>Introduction from the Angular Docs : <a href="https://angular.io/docs/ts/latest/guide/webpack.html">https://angular.io/docs/ts/latest/guide/webpack.html</a></p>
-
-<p>Good podcast on &lsquo;Webpack&rsquo; and Angular2 : <a href="http://podplayer.net/#/?id=15461508">http://podplayer.net/#/?id=15461508</a></p>
-
-<p>When to use and why ? <a href="http://blog.andrewray.me/webpack-when-to-use-and-why/">http://blog.andrewray.me/webpack-when-to-use-and-why/</a></p>
-
-    </div>
-
-    <section id="social-share">
-        <ul class="icons">
-            
-
-
-<li><a href="//twitter.com/share?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f&text=angular2%20universal%20webpack&via=modernfidelity" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-</a></li>
-
-
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-</a></li>
-
-
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-</a></li>
-
-
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f&title=angular2%20universal%20webpack" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-</a></li>
-
-
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f&title=angular2%20universal%20webpack" target="_blank" class="share-btn linkedin">
-    <i class="fa fa-linkedin"></i>
-    <p>LinkedIn</p>
-</a></li>
-
-
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f&title=angular2%20universal%20webpack" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-</a></li>
-
-
-<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-</a></li>
-
-        </ul>
-    </section>
-
     <footer>
+        <ul class="actions">
+            <li><a href="https://modernfidelity.github.io/blog/angular-2-universal-webpack/" class="button big">Read Post</a></li>
+        </ul>
         <ul class="stats">
     
         
@@ -354,94 +276,20 @@ ng serve
 
     </footer>
 </article>
+
+        
+
+        
 <ul class="actions pagination">
     
-        <li><a href="https://modernfidelity.github.io/blog/docker-cmds/"
-                class="button big previous">Useful Docker Commands</a></li>
+        <li><a href="#" class="disabled button big previous">Previous Page</a></li>
     
 
+    
+        <li><a href="#" class="disabled button big next">Next Page</a></li>
     
 </ul>
 
-
-
-    
-        <article class="post">
-            <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'modernfidelitystudios';
-    var disqus_identifier = 'https:\/\/modernfidelity.github.io\/blog\/angular-2-universal-webpack\/';
-    var disqus_title = 'angular2 universal webpack';
-    var disqus_url = 'https:\/\/modernfidelity.github.io\/blog\/angular-2-universal-webpack\/';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        </article>
-    
-
-
-
-            <section id="share-menu">
-    <section id="social-share-nav">
-        <ul class="links">
-            <header>
-                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
-            </header>
-            
-
-
-<li><a href="//twitter.com/share?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f&text=angular2%20universal%20webpack&via=modernfidelity" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-</a></li>
-
-
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-</a></li>
-
-
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-</a></li>
-
-
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f&title=angular2%20universal%20webpack" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-</a></li>
-
-
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f&title=angular2%20universal%20webpack" target="_blank" class="share-btn linkedin">
-    <i class="fa fa-linkedin"></i>
-    <p>LinkedIn</p>
-</a></li>
-
-
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f&title=angular2%20universal%20webpack" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-</a></li>
-
-
-<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fmodernfidelity.github.io%2fblog%2fangular-2-universal-webpack%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-</a></li>
-
-        </ul>
-    </section>
-</section>
-
-        
     </div>
     
 <section id="sidebar">
@@ -462,7 +310,7 @@ ng serve
         
         <ul class="icons">
             
-            <li><a href="https://modernfidelity.github.io/index.xml" type="application/rss+xml"
+            <li><a href="https://modernfidelity.github.io/categories/angular-2/index.xml" type="application/rss+xml"
                    target="_blank" title="RSS" class="fa fa-rss"></a></li>
             
             
@@ -582,7 +430,7 @@ ng serve
     <section id="footer">
         <ul class="icons">
             
-            <li><a href="https://modernfidelity.github.io/index.xml" type="application/rss+xml"
+            <li><a href="https://modernfidelity.github.io/categories/angular-2/index.xml" type="application/rss+xml"
                    target="_blank" title="RSS" class="fa fa-rss"></a></li>
             
             

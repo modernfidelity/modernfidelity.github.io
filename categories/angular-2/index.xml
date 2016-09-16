@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angular 2 on modernfidelity studios</title>
+    <link>https://modernfidelity.github.io/categories/angular-2/</link>
+    <description>Recent content in Angular 2 on modernfidelity studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Sep 2016 17:32:36 +0100</lastBuildDate>
+    <atom:link href="https://modernfidelity.github.io/categories/angular-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>angular2 universal webpack</title>
+      <link>https://modernfidelity.github.io/blog/angular-2-universal-webpack/</link>
+      <pubDate>Fri, 16 Sep 2016 17:32:36 +0100</pubDate>
+      
+      <guid>https://modernfidelity.github.io/blog/angular-2-universal-webpack/</guid>
+      <description>
+
+&lt;h2 id=&#34;notes-from-first-experiments-angular2&#34;&gt;Notes from first experiments Angular2&lt;/h2&gt;
+
+&lt;p&gt;The following are some useful snippets on the new javascript code setup for Angular 2. The basis of
+the application is the around the &amp;lsquo;isomorphic&amp;rsquo; server-side rendering known as &amp;lsquo;Universal&amp;rsquo; and the tool
+set of Webpack over the traditional Grunt/Gulp.&lt;/p&gt;
+
+&lt;p&gt;Link to the main boiler plate for Universal &lt;a href=&#34;https://github.com/angular/universal-starter&#34;&gt;https://github.com/angular/universal-starter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;angular-2&#34;&gt;Angular 2&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install -g angular-cli
+npm install -g webpack
+npm install -g typescript
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then you can create a new application with the following :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ng new snazzy-js-project
+cd snazzy-js-project
+ng serve
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Open &lt;a href=&#34;http://localhost:4200&#34;&gt;http://localhost:4200&lt;/a&gt; in your browser.&lt;/p&gt;
+
+&lt;h3 id=&#34;webpack&#34;&gt;Webpack&lt;/h3&gt;
+
+&lt;p&gt;Introduction from the Angular Docs : &lt;a href=&#34;https://angular.io/docs/ts/latest/guide/webpack.html&#34;&gt;https://angular.io/docs/ts/latest/guide/webpack.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Good podcast on &amp;lsquo;Webpack&amp;rsquo; and Angular2 : &lt;a href=&#34;http://podplayer.net/#/?id=15461508&#34;&gt;http://podplayer.net/#/?id=15461508&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When to use and why ? &lt;a href=&#34;http://blog.andrewray.me/webpack-when-to-use-and-why/&#34;&gt;http://blog.andrewray.me/webpack-when-to-use-and-why/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
