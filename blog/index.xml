@@ -6,8 +6,56 @@
     <description>Recent content in Blogs on modernfidelity studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Sep 2016 17:32:36 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 20 Sep 2016 11:28:28 +0100</lastBuildDate>
     <atom:link href="https://modernfidelity.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>multiple node versions with brew and nvm</title>
+      <link>https://modernfidelity.github.io/blog/multiple-node-versions-with-brew-and-nvm/</link>
+      <pubDate>Tue, 20 Sep 2016 11:28:28 +0100</pubDate>
+      
+      <guid>https://modernfidelity.github.io/blog/multiple-node-versions-with-brew-and-nvm/</guid>
+      <description>
+
+&lt;h1 id=&#34;install-multiple-node-versions-with-brew-and-nvm&#34;&gt;Install multiple node versions with brew and nvm&lt;/h1&gt;
+
+&lt;p&gt;Make sure you have &lt;a href=&#34;http://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; installed and then run the following :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew update
+brew install nvm
+mkdir ~/.nvm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then in particular shell of choice i.e. .bash_profile or .profile etc add :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export NVM_DIR=&amp;quot;$HOME/.nvm&amp;quot;
+source $(brew --prefix nvm)/nvm.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Update your current session to run the changes :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; source ~/.profile 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, you can install node :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; nvm install 4.5.0
+ nvm install 6.6.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Switch of node version with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nvm use 6.6.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To have a node activated by default (not to have to nvm use on each new shell), run this (stable being the id of the version):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nvm alias default 6.6.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Success - you can now run multiple versions of node ;)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>angular2 universal webpack</title>
