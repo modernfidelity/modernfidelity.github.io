@@ -26,7 +26,7 @@ brew install nvm
 mkdir ~/.nvm
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Then in particular shell of choice i.e. .bash_profile or .profile etc add :&lt;/p&gt;
+&lt;p&gt;Then in particular shell of choice i.e. .bash_profile add :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;export NVM_DIR=&amp;quot;$HOME/.nvm&amp;quot;
 source $(brew --prefix nvm)/nvm.sh
@@ -34,7 +34,7 @@ source $(brew --prefix nvm)/nvm.sh
 
 &lt;p&gt;Update your current session to run the changes :&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; source ~/.profile 
+&lt;pre&gt;&lt;code&gt; source ~/.bash_profile 
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Now, you can install node :&lt;/p&gt;

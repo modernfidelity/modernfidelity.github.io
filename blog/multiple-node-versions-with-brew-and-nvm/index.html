@@ -30,12 +30,12 @@
 
 
 <meta name="twitter:title" content="multiple node versions with brew and nvm"/>
-<meta name="twitter:description" content="Install multiple node versions with brew and nvm Make sure you have Homebrew installed and then run the following : brew update brew install nvm mkdir ~/.nvm Then in particular shell of choice i.e. .bash_profile or .profile etc add : export NVM_DIR=&quot;$HOME/.nvm&quot; source $(brew --prefix nvm)/nvm.sh Update your current session to run the changes : source ~/.profile Now, you can install node : nvm install 4.5.0 nvm install 6.6.0 Switch"/>
+<meta name="twitter:description" content="Install multiple node versions with brew and nvm Make sure you have Homebrew installed and then run the following : brew update brew install nvm mkdir ~/.nvm Then in particular shell of choice i.e. .bash_profile add : export NVM_DIR=&quot;$HOME/.nvm&quot; source $(brew --prefix nvm)/nvm.sh Update your current session to run the changes : source ~/.bash_profile Now, you can install node : nvm install 4.5.0 nvm install 6.6.0 Switch of node version"/>
 <meta name="twitter:site" content="@modernfidelity"/>
 
 
         <meta property="og:title" content="multiple node versions with brew and nvm" />
-<meta property="og:description" content="Install multiple node versions with brew and nvm Make sure you have Homebrew installed and then run the following : brew update brew install nvm mkdir ~/.nvm Then in particular shell of choice i.e. .bash_profile or .profile etc add : export NVM_DIR=&quot;$HOME/.nvm&quot; source $(brew --prefix nvm)/nvm.sh Update your current session to run the changes : source ~/.profile Now, you can install node : nvm install 4.5.0 nvm install 6.6.0 Switch" />
+<meta property="og:description" content="Install multiple node versions with brew and nvm Make sure you have Homebrew installed and then run the following : brew update brew install nvm mkdir ~/.nvm Then in particular shell of choice i.e. .bash_profile add : export NVM_DIR=&quot;$HOME/.nvm&quot; source $(brew --prefix nvm)/nvm.sh Update your current session to run the changes : source ~/.bash_profile Now, you can install node : nvm install 4.5.0 nvm install 6.6.0 Switch of node version" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://modernfidelity.github.io/blog/multiple-node-versions-with-brew-and-nvm/" />
 
@@ -53,11 +53,11 @@
 
         
 <meta itemprop="name" content="multiple node versions with brew and nvm">
-<meta itemprop="description" content="Install multiple node versions with brew and nvm Make sure you have Homebrew installed and then run the following : brew update brew install nvm mkdir ~/.nvm Then in particular shell of choice i.e. .bash_profile or .profile etc add : export NVM_DIR=&quot;$HOME/.nvm&quot; source $(brew --prefix nvm)/nvm.sh Update your current session to run the changes : source ~/.profile Now, you can install node : nvm install 4.5.0 nvm install 6.6.0 Switch">
+<meta itemprop="description" content="Install multiple node versions with brew and nvm Make sure you have Homebrew installed and then run the following : brew update brew install nvm mkdir ~/.nvm Then in particular shell of choice i.e. .bash_profile add : export NVM_DIR=&quot;$HOME/.nvm&quot; source $(brew --prefix nvm)/nvm.sh Update your current session to run the changes : source ~/.bash_profile Now, you can install node : nvm install 4.5.0 nvm install 6.6.0 Switch of node version">
 
 
 <meta itemprop="dateModified" content="2016-09-20T11:28:28&#43;01:00" />
-<meta itemprop="wordCount" content="118">
+<meta itemprop="wordCount" content="115">
 
 
 
@@ -377,7 +377,7 @@ brew install nvm
 mkdir ~/.nvm
 </code></pre>
 
-<p>Then in particular shell of choice i.e. .bash_profile or .profile etc add :</p>
+<p>Then in particular shell of choice i.e. .bash_profile add :</p>
 
 <pre><code>export NVM_DIR=&quot;$HOME/.nvm&quot;
 source $(brew --prefix nvm)/nvm.sh
@@ -385,7 +385,7 @@ source $(brew --prefix nvm)/nvm.sh
 
 <p>Update your current session to run the changes :</p>
 
-<pre><code> source ~/.profile 
+<pre><code> source ~/.bash_profile 
 </code></pre>
 
 <p>Now, you can install node :</p>
